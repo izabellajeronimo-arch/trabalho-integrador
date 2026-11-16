@@ -10,20 +10,26 @@
 </head>
 <body>
     <main class="tela-Login">
-        <div class="titulo">
+        <div class="decoracao">
+            <div class="titulo">
             <h1><span class="titulo1">Eco</span><span class="titulo2">Skin</span></h1>
-        </div>
-        <section class="pagina-login">
-            <div class="login-form">
-                <span class="Entrar">Entrar</span>
-                <form action="../index.html" method="post">
-                    <input type="text" name="username" placeholder="Usuário" required>
-                    <input type="password" name="password" placeholder="Senha" required>
-                    <button type="submit">Entrar</button>
-                </form>
-                <p><a href="../telaCadastro/index.html">Cadastre-se</a></p>
             </div>
-        </section>
+        </div>
+        <div class="dados">
+            <div class="login-form">
+                <span class="Entrar"><h3>Entrar</h3></span>
+                <div class="input-container">
+                <form action="../index.html" method="post">
+                    <div class="input-container">
+                    <input type="text" name="username" placeholder="Usuário" required minlength="8" class="inputNome">
+                    <input type="password" name="password" placeholder="Senha" required minlength="8" class="inputSenha">
+                    </div>
+                    <button type="submit" class="buttonEntrar">Entrar</button>
+                </form>
+                </div>
+                <button><a href="../telaCadastro/index.html" class="link">Cadastre-se</a></button>
+            </div>
+        </div>
     </main>
 </body>
 </html>

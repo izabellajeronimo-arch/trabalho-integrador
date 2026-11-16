@@ -4,12 +4,103 @@ body{
     font-family: Arial, sans-serif;
 }
 
+.tela-Login{
+    justify-content:space-between;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
 
-
-.tela-Login {
+.titulo{
+    font-size: 200%;
+    font-family: DejaVu Sans Mono, monospace;
+    margin-top: 20%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f5f5f5;
 }
+
+.titulo1{
+    color: #29b224;
+}
+.titulo2{
+    color: #000000;
+}
+
+.decoracao{
+    background: linear-gradient(to bottom, #5abb55f7, #13510ff7), url('../img/ecoSkin.jpg');
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    width: 40%;
+    height: 100vh;
+    border-width: 1px;
+    border-style: solid;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 50px rgba(0, 0, 0, 0.2);
+}
+
+.dados{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 60%;
+    height: 100vh;
+}
+
+.login-form{
+    margin: 0 auto;
+    background-color: #edecec;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    height: 70%;
+    border-radius: 30px;
+    box-shadow: 0 4px 50px rgba(0, 0, 0, 0.382);
+}
+
+.Entrar{
+    display: flex;
+    padding: 10px;
+    margin-top: 0;
+    font-size: 200%;
+    font-family: DejaVu Sans Mono, monospace, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    margin-top: 20px;
+
+}
+
+.inputNome, .inputSenha {
+    margin: 10px 0;
+    width: 150%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+button{    
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.buttonEntrar {
+    background: linear-gradient(to left, #2ab811, #679422);
+
+}
+
