@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.tela-Login{
+    justify-content:space-between;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.titulo{
+    font-size: 200%;
+    font-family: DejaVu Sans Mono, monospace;
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo1{
+    color: #29b224;
+}
+.titulo2{
+    color: #000000;
+}
+
+.decoracao{
+    background: linear-gradient(to bottom, #5abb55f7, #13510ff7), url('');
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    width: 40%;
+    height: 100vh;
+    border-width: 1px;
+    border-style: solid;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 50px rgba(0, 0, 0, 0.2);
+}
+
+.dados{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 60%;
+    height: 100vh;
+}
+
+.login-form{
+    margin: 0 auto;
+    background-color: #edecec;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    height: 70%;
+    border-radius: 30px;
+    box-shadow: 0 4px 50px rgba(0, 0, 0, 0.382);
+}
+
+.Cadastro{
+    display: flex;
+    padding: 10%;
+    font-size: 200%;
+    font-family: DejaVu Sans Mono, monospace, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    margin-top: 20%;
+
+}
+
+.inputNome, .inputSenha {
+    margin: 10px 0;
+    width: 120%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.botoes{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.link{
+    text-decoration: none;
+    color: #fff
+}
+
+.buttonEntrar{
+    width: 170px;
+    margin-top: 15px;
+    background-color:#29b224;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.buttonCadastrar:hover{
+  background-color: color-mix(in oklab, #29b224, black 25%);
+}
+
+.buttonEntrar:hover{
+  background-color: color-mix(in oklab, #29b224, black 25%);
+}
+
+.buttonCadastrar {
+    width: 170px;
+    background-color:#29b224;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+

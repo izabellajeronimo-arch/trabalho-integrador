@@ -27,7 +27,7 @@ body{
 }
 
 .decoracao{
-    background: linear-gradient(to bottom, #5abb55f7, #13510ff7), url('../img/ecoSkin.jpg');
+    background: linear-gradient(to bottom, #5abb55f7, #13510ff7), url('');
     background-size: cover;
     justify-content: center;
     display: flex;
@@ -81,16 +81,30 @@ body{
 
 .inputNome, .inputSenha {
     margin: 10px 0;
-    width: 150%;
-    padding: 20px;
+    width: 120%;
+    padding: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
-button{    
-    color: white;
+.botoes{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.link{
+    text-decoration: none;
+    color: #fff
+}
+
+.buttonCadastro{
+    width: 170px;
+    margin-top: 15px;
+    background-color:#29b224;
+    color: rgb(255, 255, 255);
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -99,8 +113,23 @@ button{
     transition: background-color 0.3s ease;
 }
 
-.buttonEntrar {
-    background: linear-gradient(to left, #2ab811, #679422);
+.buttonCadastro:hover{
+  background-color: color-mix(in oklab, #29b224, black 25%);
+}
 
+.buttonEntrar:hover{
+  background-color: color-mix(in oklab, #29b224, black 25%);
+}
+
+.buttonEntrar{
+    width: 170px;
+    background-color:#29b224;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
 }
 

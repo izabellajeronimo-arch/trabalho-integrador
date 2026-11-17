@@ -1,11 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> 
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="theme-color" content="#174d36">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="login.js" defer></script>
 </head>
 <body>
-    
+    <main class="tela-Login">
+        <div class="decoracao">
+            <div class="titulo">
+            <h1><span class="titulo1">Eco</span><span class="titulo2">Skin</span></h1>
+            </div>
+        </div>
+        <div class="dados">
+            <div class="login-form">
+                <span class="Cadastro"><h3>Cadastro</h3></span>
+                <div class="input-container">
+                <form action="../index.html" method="post">
+                    <div class="input-container">
+                        <input type="text" name="username" placeholder="Nome de Usuário" required minlength="8" class="inputNome" required>
+                        <input type="text" name="username" placeholder="E-mail" required minlength="8" class="inputNome" required>
+                        <input type="password" name="password" placeholder="Senha" required minlength="8" class="inputSenha" id="senha" required>
+                        <input type="password" name="re-password" placeholder="Confirmar a Senha" required minlength="8" class="inputSenha" id="confirmar" required>
+                    </div>
+                </form>
+                <div class="botoes">
+                    <button class="buttonCadastrar" type="submit">Cadastre-se</button>
+                    <button class="buttonEntrar"><a href="../telaLogin/index.html" class="link">Entrar</a></button>
+                </div>
+            </div>
+                
+            </div>
+        </div>
+    </main>
 </body>
 </html>
