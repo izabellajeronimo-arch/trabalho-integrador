@@ -62,7 +62,7 @@ body{
     align-items: center;
     justify-content: center;
     position:relative;
-    top: 35%;
+    top: 30%;
     width: 100%;
 }
 
@@ -96,7 +96,7 @@ body{
 }
 .input-container{
     position: relative;
-    top: -12%;
+    top: -17%;
     width: 115%;
     display: flex;
     justify-content: center;
