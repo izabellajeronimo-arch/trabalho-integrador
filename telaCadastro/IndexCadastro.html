@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#174d36">
     <title>Cadastro</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <script src="script.js" defer></script>
+    <link rel="icon" type="image/jpeg" href="../images/Logótipo Ecológico de Gota e Folhas.png">
 </head>
 <body>
     <main class="tela-Login">
@@ -48,8 +49,7 @@
                 <div class="input-container-Cadastro">
                     <form id="meuForm" action="../telaCadastro/Cadastro.html" method="post">
                         <div class="input-container">
-                            <input type="text" name="username" placeholder="Nome de Usuário" required minlength="8" class="inputNome" id="nome">
-                            <input type="email" name="email" placeholder="E-mail" required minlength="8" class="inputEmail" id="email">
+                            <input type="text" name="username/emial" placeholder="Nome de Usuário ou email" required minlength="8" class="inputNome-Email" id="nome/email">
                             <input type="password" name="password" placeholder="Senha" required minlength="8" class="inputSenha" id="senha">
                             <input type="password" name="re-password" placeholder="Confirmar a Senha" required minlength="8" class="inputSenha" id="confirmar">
                         </div>
@@ -57,7 +57,7 @@
                 </div>
                 <div class="botoes">
                     <button type="submit" form="meuForm" class="buttonCadastrar" id="Cadastrar">Cadastre-se</button>
-                    <a href="../telaLogin/index.html" class="link"><button type="button" class="buttonEntrar">Entrar</button></a>
+                    <a href="../telaLogin/indexLogin.html" class="link"><button type="button" class="buttonEntrar">Entrar</button></a>
                 </div>
             </div>
         </div>
