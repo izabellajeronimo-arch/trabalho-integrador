@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#174d36">
+    <title>Entrar</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="script.js" defer></script>
+    <link rel="icon" type="image/jpeg" href="../images/Logótipo Ecológico de Gota e Folhas.png">
+</head>
+<body>
+    <main class="tela-Login">
+        <div class="decoracao">
+            <div class="carrossel">
+                <div class="slides" id="slides">
+                    <div class="slide" style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, transparent 40%), url('../images/image_162cf75d.jpg');">
+                            <p class="slide-texto">Cosméticos naturais inspirados na natureza.</p>
+                    </div>
+                    <div class="slide" style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, transparent 40%), url('../images/image_cd464f40.jpg');">
+
+                        <p class="slide-texto">Cuidado sustentável para a sua pele todos os dias.</p>
+                    </div>
+                    <div class="slide" style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), 0%, transparent 40%), url('../images/image_e714a556.jpg');">
+                        <p class="slide-texto">100% vegano, livre de crueldade e eco-friendly.</p>
+                    </div>
+                    <div class="slide" style="background-image: linear-gradient(to bottom, rgba(90, 187, 85, 0.75), rgba(19, 81, 15, 0.85)), url('../images/NOME-DA-SUA-FOTO.jpg');">
+                        <p class="slide-texto">Texto que você quiser mostrar nessa foto.</p>
+                    </div>
+                </div>
+
+                <div class="titulo-overlay">
+                    <h1><span class="titulo1">Eco</span><span class="titulo2">Skin</span></h1>
+                </div>
+
+                <button class="seta anterior" id="prev">&#10094;</button>
+                <button class="seta proximo" id="next">&#10095;</button>
+
+                <div class="indicadores" id="indicadores">
+                    <span class="ponto ativo" data-index="0"></span>
+                    <span class="ponto" data-index="1"></span>
+                    <span class="ponto" data-index="2"></span>
+                </div>
+            </div>
+        </div>
+        <div class="dados">
+            <div class="login-form">
+                <span class="Login"><h3>Login</h3></span>
+                <div class="inputs-Login">
+                    <form id="meuForm" action="../index.html" method="post">
+                        <div class="input-container-Login">
+                            <input type="text" name="username" placeholder="Usuário" required minlength="8" class="inputNomeLogin" id="Nome">
+                            <input type="password" name="password" placeholder="Senha" required minlength="8" class="inputSenhaLogin" id="Senha">
+                        </div>
+                    </form>
+                </div>
+                <div class="botoesLogin">
+                    <button type="submit" form="meuForm" class="buttonEntrarLogin" id="Entrar">Entrar</button>
+                    <a href="../telaCadastro/IndexCadastro.html" class="link"><button type="button" class="buttonCadastrarLogin">Cadastre-se</button></a>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
